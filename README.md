@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# Fabric Luaj标准库模组
 
-## Setup
+## 简介
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+luaj的fabric版封装，lua语言运行库
 
 ## License
 
+作者:Moid
+邮箱:2993150260@qq.com
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
