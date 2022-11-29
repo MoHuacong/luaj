@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "red.moid.luaj.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "LuajMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

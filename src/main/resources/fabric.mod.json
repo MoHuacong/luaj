@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "luaj",
+  "version": "${version}",
+
+  "name": "luaj",
+  "description": "http://ghthub.com/luaj/luaj",
+  "authors": [
+    "Moid",
+    "http://ghthub.com/luaj/luaj"
+  ],
+  "contact": {
+    "homepage": "http://luaj.moid.red/",
+    "sources": "https://github.com/MoHuacong/luaj"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/luaj/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "red.moid.luaj.LuajMod"
+    ]
+  },
+  "mixins": [
+    "luaj.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
